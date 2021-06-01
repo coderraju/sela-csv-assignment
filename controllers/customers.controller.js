@@ -14,7 +14,7 @@ module.exports = class CustomerController {
              res.status(200);
              return res.send({
                  success:true,
-                 download_url:'127.0.0.1:3000/api/v1/csv/download'
+                 download_url:'http://127.0.0.1:3000/api/v1/csv/download'
              });
 
         } catch (error) {

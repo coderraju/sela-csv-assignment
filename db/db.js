@@ -29,7 +29,7 @@ module.exports.connect = async () => {
         })
          let x=  (await collections).insertMany(jsonArray2)
          if(x){
-             console.log('Data loaded from data.csv file.')
+             console.log('Dumping data.csv into mongodb: success');
          }else{
              console.log("Error dumping data.csv into db.")
          }
