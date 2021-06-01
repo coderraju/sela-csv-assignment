@@ -1,0 +1,30 @@
+{
+  "name": "home_assignment",
+  "version": "1.0.0",
+  "description": "this is sela home assignment for db read and download res as csv",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "csv",
+    "download",
+    "project"
+  ],
+  "author": "Raju Vishwakarma",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "joi": "^17.4.0",
+    "json2csv": "^5.0.6",
+    "mongodb": "^3.6.9",
+    "mongodb-memory-server": "^6.9.6",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
